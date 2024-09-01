@@ -1,0 +1,12 @@
+Q# Take three variables as input and add them without using the + operator (Use your head for this)
+Problem 3;
+Start
+Display: Enter three numbers
+Input: Enter the first number
+Input: Enter the second number
+Input: Enter the third number
+Declare first number = x, second number = y and third number = z
+Initialize result1= x – (- y)
+Initialize result = result1 – (- z)
+Display: "The sum is: “, result
+End
