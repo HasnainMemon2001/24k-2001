@@ -1,0 +1,81 @@
+Objective 2: PSEUDOCODE 
+
+Q: Create a small calculator which only does ‘+’ or ‘-‘Operations. (Hint: Take three variable inputs with one being used for the operator)
+Problem 2;
+Start 
+Int= operator and result 
+Print: Enter the two numbers
+Declare number 1 = x, number 2 = y
+Input: Enter the number 1 
+Input: Enter the operator(+,-)
+Input: Enter the number 2
+If (operator==+)
+Calculate: x + y
+Else 
+Calculate: x – y
+Display: “The result is”, result
+End
+
+Q# Take three variables as input and add them without using the + operator (Use your head for this)
+Problem 3;
+Start
+Display: Enter three numbers
+Input: Enter the first number
+Input: Enter the second number
+Input: Enter the third number
+Declare first number = x, second number = y and third number = z
+Initialize result1= x – (- y)
+Initialize result = result1 – (- z)
+Display: "The sum is: “, result
+End
+
+
+
+
+Objective 3: ALGORITHM
+
+Q# 1 Implement an algorithm for making a simple calculator with all the operators (+,-,*, /, %)
+       Problem 1;
+
+•	Enter the two numbers
+•	Declare number 1 = x, number 2 = y
+•	Enter the number 1
+•	Enter the operator (+, -, *, /, %)
+•	Enter the number 2
+•	If (operator == +)
+•	Calculate x + y
+•	Else if (operator == -)
+•	Calculate x – y
+•	Else if (operator ==*)
+•	Calculate x*y
+•	Else if (operator ==/)
+•	If (y! = 0)
+•	Calculate x/y
+•	Else
+•	Error, division by zero is not allow
+•	Endif
+•	Else
+•	If (y! = 0)
+•	Calculate x % y
+•	Else
+•	Error, division is not allowed by zero
+•	Endif
+•	Endif
+•	Display to the user, “The result is”
+•	End
+Q#2 Implement an algorithm for determining if an Nth is a divisor of an n Number (i.e. 2 is a divisor of 6). If so, determine if it is an even number or odd number as well.
+
+         Problem 3;
+
+•	Enter the number n (n= The number to be divided) 
+•	Enter the number Nth (N=remainder is zero)
+•	If (n % Nth==0)
+•	Display "Nth is a divisor of n".
+•	If (Nth % 2==0)
+•	Display “The Nth is an even number” and “divisor of n number” 
+•	Else 
+•	Display “The Nth is an odd number” and “divisor of n number”
+•	Endif 
+•	Else 
+•	Display “Nth is not a divisor of n”
+•	Endif
