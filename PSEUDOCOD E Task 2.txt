@@ -1,0 +1,18 @@
+Objective 2: PSEUDOCODE 
+
+Q: Create a small calculator which only does ‘+’ or ‘-‘Operations. (Hint: Take three variable inputs with one being used for the operator)
+Problem 2;
+Start 
+Int= operator and result 
+Print: Enter the two numbers
+Declare number 1 = x, number 2 = y
+Input: Enter the number 1 
+Input: Enter the operator(+,-)
+Input: Enter the number 2
+If (operator==+)
+Calculate: x + y
+Else 
+Calculate: x – y
+Display: “The result is”, result
+End
+
