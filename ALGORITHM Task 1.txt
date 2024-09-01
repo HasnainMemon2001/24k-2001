@@ -1,0 +1,31 @@
+Objective 3: ALGORITHM
+
+Q# 1 Implement an algorithm for making a simple calculator with all the operators (+,-,*, /, %)
+       Problem 1;
+
+•	Enter the two numbers
+•	Declare number 1 = x, number 2 = y
+•	Enter the number 1
+•	Enter the operator (+, -, *, /, %)
+•	Enter the number 2
+•	If (operator == +)
+•	Calculate x + y
+•	Else if (operator == -)
+•	Calculate x – y
+•	Else if (operator ==*)
+•	Calculate x*y
+•	Else if (operator ==/)
+•	If (y! = 0)
+•	Calculate x/y
+•	Else
+•	Error, division by zero is not allow
+•	Endif
+•	Else
+•	If (y! = 0)
+•	Calculate x % y
+•	Else
+•	Error, division is not allowed by zero
+•	Endif
+•	Endif
+•	Display to the user, “The result is”
+•	End
